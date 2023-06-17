@@ -1,0 +1,19 @@
+[flake8]
+accept-encodings = utf-8
+max-complexity = 6
+statistics = False
+max-line-length = 80
+enable-extensions = G
+isort-show-traceback = True
+
+exclude = .venv,dist,build
+
+per-file-ignores =
+  # init modules can contain the local imports, logic, unused imports
+  __init__.py: F401
+
+[isort]
+multi_line_output = 3
+include_trailing_comma = true
+default_section = FIRSTPARTY
+line_length = 80
