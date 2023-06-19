@@ -1,5 +1,7 @@
 from random import randint
 import prompt
+
+
 def brain_gcd():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -23,6 +25,7 @@ def brain_gcd():
             print("'" + answer + "' is wrong answer ;(. Correct answer was '" + str(correct_answer) + "'.\nLet's try again, " + name + "!")
             break
         i += 1
+
 
 if __name__ == '__main__':
     brain_gcd()

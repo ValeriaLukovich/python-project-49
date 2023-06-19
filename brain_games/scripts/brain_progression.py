@@ -2,6 +2,7 @@ from random import randint
 from random import choice
 import prompt
 
+
 def brain_progression():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -25,5 +26,7 @@ def brain_progression():
             print(f' \'{answer}\' is wrong answer ;(. Correct answer was \' {correct_answer}\'.\nLet\'s try again, {name}!')
             break
         i += 1
+
+
 if __name__ == '__main__':
     brain_progression()
