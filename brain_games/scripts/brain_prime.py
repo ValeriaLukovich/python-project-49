@@ -23,11 +23,11 @@ def brain_prime():
         a = randint(0, 100)
         print(f'Question: {a}')
         answer = input('Your answer: ')
-        correct_answer = is_prime(a) 
+        correct_answer = is_prime(a)
         if answer == correct_answer:
             print('Correct!')
         elif answer != correct_answer:
-            print(f' \'{answer}\' is wrong answer ;(. Correct answer was \' {correct_answer}\'.\nLet\'s try again, {name}!')
+            print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.\nLet\'s try again, {name}!')
             break
         i += 1
 

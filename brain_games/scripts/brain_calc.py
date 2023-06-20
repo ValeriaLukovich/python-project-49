@@ -15,12 +15,12 @@ def brain_calc():
         sign = choice('+-*')
         expression = a + ' ' + sign + ' ' + b
         print('Question: ' + expression)
-        answer = input('Your answer: ')
+        answer = int(input('Your answer: '))
         correct_answer = eval(a + sign + b)
-        if int(answer) == correct_answer:
+        if answer == correct_answer:
             print('Correct!')
-        elif int(answer) != correct_answer:
-            print("'" + answer + "' is wrong answer ;(. Correct answer was '" + str(correct_answer) + "'.\nLet's try again, " + name + "!")
+        elif answer != correct_answer:
+            print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.\nLet\'s try again, {name}!')
             break
         i += 1
     print('Congratulations, ' + name + '!')

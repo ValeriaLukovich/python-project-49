@@ -22,7 +22,7 @@ def brain_gcd():
         if answer == correct_answer:
             print('Correct!')
         elif answer != correct_answer:
-            print("'" + answer + "' is wrong answer ;(. Correct answer was '" + str(correct_answer) + "'.\nLet's try again, " + name + "!")
+            print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.\nLet\'s try again, {name}!')
             break
         i += 1
 

@@ -13,17 +13,18 @@ def brain_progression():
         a = randint(0, 15)
         b = randint(1, 15)
         string = list(range(a, 150, b))[:10]
-        correct_answer = choice(string)
+        hidden_number = choice(string)
         for index, char in enumerate(string):
-            if char == correct_answer:
+            if char == hidden_number:
                 string[index] = '..'
         new_string = ' '.join(map(str, string))
         print(f' Question: {new_string}')
         answer = input('Your answer: ')
-        if answer == str(correct_answer):
+        correct_answer = str(hidden_number)
+        if answer == correct_answer:
             print('Correct!')
-        elif answer != str(correct_answer):
-            print(f' \'{answer}\' is wrong answer ;(. Correct answer was \' {correct_answer}\'.\nLet\'s try again, {name}!')
+        elif answer != correct_answer:
+            print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.\nLet\'s try again, {name}!')
             break
         i += 1
 
