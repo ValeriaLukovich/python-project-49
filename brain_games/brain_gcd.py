@@ -6,7 +6,7 @@ def brain_gcd():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
-    print('What is the result of the expression?')
+    print('Find the greatest common divisor of given numbers.')
     i = 0
     while i < 3:
         a = randint(1, 100)
