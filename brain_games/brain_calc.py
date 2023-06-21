@@ -16,7 +16,7 @@ def brain_calc():
         a = randint(1, 20)
         b = randint(1, 20)
         sign = choice('+-*')
-        expression = f'{a}{ sign}{ b}'
+        expression = f'{a} {sign} {b}'
         print('Question: ' + expression)
         answer = int(input('Your answer: '))
         if sign == '+':
