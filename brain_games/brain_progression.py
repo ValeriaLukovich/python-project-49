@@ -7,7 +7,7 @@ def brain_progression():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
-    print('What is the result of the expression?')
+    print('What number is missing in the progression?')
     i = 0
     while i < 3:
         a = randint(0, 15)
