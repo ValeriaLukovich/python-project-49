@@ -14,6 +14,7 @@ This project was built using these tools:
 
 To install this package use command:
 pip install --user git@github.com:ValeriaLukovich/python-project-49.git
+<a href="https://asciinema.org/a/QRi2Ld2KgQaCk6cmqYzb3A3l2" target="_blank"><img src="https://asciinema.org/a/QRi2Ld2KgQaCk6cmqYzb3A3l2.svg" /></a>
 
 To start game "brain-even" use command:
 brain-even
