@@ -4,6 +4,8 @@
 
 
 BRAIN-GAMES
+Package includes 5 intresting games, which will help you to spend your time usefull.
+ 
 This project was built using these tools:
 1. Python 3.10.6
 2. poetry
