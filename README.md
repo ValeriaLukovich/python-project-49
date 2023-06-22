@@ -3,12 +3,32 @@
 <a href="https://codeclimate.com/github/ValeriaLukovich/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/2628be5a3cfb513f901f/maintainability" /></a>
 
 
-https://asciinema.org/a/xEIEaz3Pf7ptxK3VXJH9TpII9
+BRAIN-GAMES
+This project was built using these tools:
+1. Python 3.10.6
+2. poetry
+3. flake8
+4. prompt 0.4.1
 
-https://asciinema.org/a/etpj985pfxvksiap2bBsC4t4H
+To install this package use command:
+pip install --user git@github.com:ValeriaLukovich/python-project-49.git
 
-https://asciinema.org/a/yTUremhKNNFZT6eSAB95OHp8T
+To start game "brain-even" use command:
+brain-even
+<a href="https://asciinema.org/a/xEIEaz3Pf7ptxK3VXJH9TpII9" target="_blank"><img src="https://asciinema.org/a/xEIEaz3Pf7ptxK3VXJH9TpII9.svg" /></a>
 
-https://asciinema.org/a/0jSVQ7f0JemHpw8JlzY9dTi4U
+To start game "brain-calc" use command:
+brain-calc
+<a href="https://asciinema.org/a/etpj985pfxvksiap2bBsC4t4H" target="_blank"><img src="https://asciinema.org/a/etpj985pfxvksiap2bBsC4t4H.svg" /></a>
 
-https://asciinema.org/a/TK5VinBFRnVFjtShZpP14H9AX
+To start game "brain-gcd" use command:
+brain-gcd
+<a href="https://asciinema.org/a/W0pIZE0FJFZyxSpmnA88nrw0O" target="_blank"><img src="https://asciinema.org/a/W0pIZE0FJFZyxSpmnA88nrw0O.svg" /></a>
+
+To start game "brain-progression" use command:
+brain-progression
+<a href="https://asciinema.org/a/8WLg3uBvobaiaD6GsTCIfIZ3Z" target="_blank"><img src="https://asciinema.org/a/8WLg3uBvobaiaD6GsTCIfIZ3Z.svg" /></a>
+
+To start game "brain-prime" use command:
+brain-prime
+<a href="https://asciinema.org/a/sxQ3B4Wjw82ppEZwF6LYtdW6A" target="_blank"><img src="https://asciinema.org/a/sxQ3B4Wjw82ppEZwF6LYtdW6A.svg" /></a>
