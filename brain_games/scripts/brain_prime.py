@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from brain_games.play_game import play_game
-from brain_games.brain_prime import brain_prime
-from brain_games.brain_prime import QUESTION
+from brain_games.games.brain_prime import brain_prime
+from brain_games.games.brain_prime import QUESTION
 
 
 def main():

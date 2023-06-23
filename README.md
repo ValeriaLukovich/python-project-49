@@ -14,7 +14,26 @@ This project was built using these tools:
 
 To install this package use command:
 pip install --user git@github.com:ValeriaLukovich/python-project-49.git
+
+To assemble package use command:
+make build
+
+To publish package use command:
+make publish
+
+And install package with command:
+make package install
+
 <a href="https://asciinema.org/a/noNIK2ood37hrrwRPVhneGu1P" target="_blank"><img src="https://asciinema.org/a/noNIK2ood37hrrwRPVhneGu1P.svg" /></a>
+
+Add prompt library, use command:
+poetry add prompt
+
+Add flake8 in dev-depencies, use command:
+poetry add --group dev flake8
+ 
+To run flake8, use command:
+make lint
 
 To start game "brain-even" use command:
 brain-even
