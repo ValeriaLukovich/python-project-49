@@ -13,7 +13,7 @@ def is_prime(a):
         return True
 
 
-def brain_prime():
+def get_question_and_answer():
     number = randint(0, 100)
     if is_prime(number):
         correct_answer = 'yes'

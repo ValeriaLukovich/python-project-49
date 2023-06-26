@@ -11,7 +11,7 @@ def is_even(a):
         return False
 
 
-def brain_even():
+def get_question_and_answer():
     random_number = randint(1, 200)
     if is_even(random_number):
         result = 'yes'

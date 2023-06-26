@@ -8,20 +8,19 @@ from operator import sub
 QUESTION = 'What is the result of the expression?'
 
 
-def operation(a, b, sign):
+def find_operation(sign):
     if sign == '+':
-        correct_answer = add(a, b)
+        return add
     elif sign == '*':
-        correct_answer = mul(a, b)
+        return mul
     elif sign == '-':
-        correct_answer = sub(a, b)
-    return correct_answer
+        return sub
 
 
-def brain_calc():
+def get_question_and_answer():
     a = randint(1, 20)
     b = randint(1, 20)
     sign = choice('+-*')
     new_task = f'{a} {sign} {b}'
-    correct_answer = str(operation(a, b, sign))
+    correct_answer = str(find_operation(sign)(a, b))
     return new_task, correct_answer

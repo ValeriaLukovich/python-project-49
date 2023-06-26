@@ -4,7 +4,7 @@ from math import gcd
 QUESTION = 'Find the greatest common divisor of given numbers.'
 
 
-def brain_gcd():
+def get_question_and_answer():
     a = randint(1, 100)
     b = randint(1, 100)
     new_task = str(a) + ' ' + str(b)
